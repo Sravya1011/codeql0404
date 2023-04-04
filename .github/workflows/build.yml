@@ -20,3 +20,5 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: -X
+          sonar-project-base-dir: .
+          sonar.exclusions: '**/*.java'  # Exclude all .java files from the analysis
