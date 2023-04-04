@@ -17,3 +17,6 @@ jobs:
         SONAR_HOST_URL: https://sonarcloud.io
         SONAR_PROJECT_KEY: sravya
         SONAR_ORGANIZATION: sravya
+      with:
+        args: >
+          -X
