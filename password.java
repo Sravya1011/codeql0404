@@ -1,3 +1,4 @@
+#ADDING COMMENT
 public class Constants {
     public static final String APP_PROPERTIES_FILE_NAME = "appproperties.json";
     public static final String CERT_INFO_FILE_NAME = "certinfo.json";
